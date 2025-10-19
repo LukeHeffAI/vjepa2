@@ -18,6 +18,8 @@ einops
 beartype
 psutil
 h5py
+matplotlib
+tqdm
 fire
 python-box
 scikit-image
