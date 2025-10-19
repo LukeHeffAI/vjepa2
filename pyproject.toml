@@ -1,6 +1,24 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vjepa2"
+version = "0.0.1"
+description = "PyTorch code and V-JEPA 2 temporal sensitivity probes."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "matplotlib",
+    "tqdm",
+]
+
 [tool.isort]
-profile="black"
-line_length=119
+profile = "black"
+line_length = 119
 
 [tool.black]
 line-length = 119
